@@ -13,13 +13,13 @@
 </c:if>
 <label for="title">作成者</label>
 <br />
-<input type="text" name="name" value="${tasks.name}" />
+<input type="text" name="name" value="${task.name}" />
 <br />
 <br />
 
 <label for="content">タスク内容</label>
 <br />
-<input type="text" name="content" value="${tasks.content}" />
+<input type="text" name="content" value="${task.content}" />
 <br />
 <br />
 
